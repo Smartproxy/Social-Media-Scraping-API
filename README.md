@@ -795,6 +795,52 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
   GET /task/{{Task ID}}/results?type=raw
 ```
 
+## TikTok
+
+## TikTok profile
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://www.tiktok.com/@nba)
+```target``` (in this example, tiktok_profile)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  TikTok profile URL |
+| `target` | `string` |  target  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+
+## TikTok post
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://www.tiktok.com/@nba/video/7196793231042989354)
+```target``` (in this example, tiktok_post)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  TikTok post URL |
+| `target` | `string` |  target  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+
 ## Targets
 
 ### List of supported targets for the 'target' parameter
