@@ -581,9 +581,9 @@ First 2 top & bottom ads and product listing info
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazon.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazon.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazon.py > amazon.py ``` |
-| PHP                 | [php/amazon.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazon.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazon.php > amazon.php  ``` |
-| Node.js                 | [nodejs/amazon.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazon.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazon.js > amazon.js ``` |
+| Python                  | [python/instagramprofile.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramprofile.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramprofile.py > instagramprofile.py ``` |
+| PHP                 | [php/instagramprofile.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramprofile.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramprofile.php > instagramprofile.php  ``` |
+| Node.js                 | [nodejs/instagramprofile.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramprofile.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramprofile.js > instagramprofile.js ``` |
 
 
 ### Instagram GraphQL profile
@@ -611,9 +611,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazonproduct.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazonproduct.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazonproduct.py > amazonproduct.py ``` |
-| PHP                 | [php/amazonproduct.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazonproduct.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazonproduct.php > amazonproduct.php  ``` |
-| Node.js                 | [nodejs/amazonproduct.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazonproduct.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazonproduct.js > amazonproduct.js ``` |
+| Python                  | [python/instagramgraphqlprofile.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlprofile.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlprofile.py > instagramgraphqlprofile.py ``` |
+| PHP                 | [php/instagramgraphqlprofile.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlprofile.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlprofile.php > instagramgraphqlprofile.php  ``` |
+| Node.js                 | [nodejs/instagramgraphqlprofile.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlprofile.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlprofile.js > instagramgraphqlprofile.js ``` |
 
 ### Instagram post
 
@@ -639,9 +639,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazonpricing.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazonpricing.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazonpricing.py > amazonpricing.py ``` |
-| PHP                 | [php/amazonpricing.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazonpricing.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazonpricing.php > amazonpricing.php  ``` |
-| Node.js                 | [nodejs/amazonpricing.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazonpricing.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazonpricing.js > amazonpricing.js ``` |
+| Python                  | [python/instagrampost.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagrampost.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagrampost.py > instagrampost.py ``` |
+| PHP                 | [php/instagrampost.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagrampost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagrampost.php > instagrampost.php  ``` |
+| Node.js                 | [nodejs/instagrampost.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagrampost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagrampost.js > instagrampost.js ``` |
 
 ### Instagram GraphQL post
 
@@ -667,9 +667,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazonreviews.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazonreviews.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazonreviews.py > amazonreviews.py ``` |
-| PHP                 | [php/amazonreviews.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazonreviews.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazonreviews.php > amazonreviews.php  ``` |
-| Node.js                 | [nodejs/amazonreviews.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazonreviews.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazonreviews.js > amazonreviews.js ``` |
+| Python                  | [python/instagramgraphqlpost.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlpost.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlpost.py > instagramgraphqlpost.py ``` |
+| PHP                 | [php/instagramgraphqlpost.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlpost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlpost.php > instagramgraphqlpost.php  ``` |
+| Node.js                 | [nodejs/instagramgraphqlpost.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlpost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlpost.js > instagramgraphqlpost.js ``` |
 
 ### Instagram reel
 
@@ -696,9 +696,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazonquestions.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazonquestions.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazonquestions.py > amazonquestions.py ``` |
-| PHP                 | [php/amazonquestions.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazonquestions.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazonquestions.php > amazonquestions.php  ``` |
-| Node.js                 | [nodejs/amazonquestions.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazonquestions.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazonquestions.js > amazonquestions.js ``` |
+| Python                  | [python/instagramreel.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramreel.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramreel.py > instagramreel.py ``` |
+| PHP                 | [php/instagramreel.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramreel.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramreel.php > instagramreel.php  ``` |
+| Node.js                 | [nodejs/instagramreel.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramreel.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramreel.js > instagramreel.js ``` |
 
 ### Instagram GraphQL reel
 
@@ -725,9 +725,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/amazonsearch.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/amazonsearch.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/amazonsearch.py > amazonsearch.py ``` |
-| PHP                 | [php/amazonsearch.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/amazonsearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/amazonsearch.php > amazonsearch.php  ``` |
-| Node.js                 | [nodejs/amazonsearch.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/amazonsearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/amazonsearch.js > amazonsearch.js ``` |
+| Python                  | [python/instagramgraphqlreel.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlreel.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlreel.py > instagramgraphqlreel.py ``` |
+| PHP                 | [php/instagramgraphqlreel.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlreel.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlreel.php > instagramgraphqlreel.php  ``` |
+| Node.js                 | [nodejs/instagramgraphqlreel.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlreel.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlreel.js > instagramgraphqlreel.js ``` |
 
 
 ### Instagram GraphQL hashtag
@@ -755,9 +755,9 @@ Required parameters:
 
 | Programming Language | Example location         | Download |
 | -------------------- | ------------------------ | -------- |
-| Python                  | [python/wayfair.py](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/python/wayfair.py) |``` curl hhttps://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/python/wayfair.py > wayfair.py ``` |
-| PHP                 | [php/wayfair.php](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/php/wayfair.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/php/wayfair.php > wayfair.php  ``` |
-| Node.js                 | [nodejs/wayfair.js](https://github.com/Smartproxy/eCommerce-Scraping-API/blob/main/nodejs/wayfair.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/eCommerce-Scraping-API/main/nodejs/wayfair.js > wayfair.js ``` |
+| Python                  | [python/instagramgraphqlhashtag.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlhashtag.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlhashtag.py > instagramgraphqlhashtag.py ``` |
+| PHP                 | [php/instagramgraphqlhashtag.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlhashtag.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlhashtag.php > instagramgraphqlhashtag.php  ``` |
+| Node.js                 | [nodejs/instagramgraphqlhashtag.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlhashtag.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlhashtag.js > instagramgraphqlhashtag.js ``` |
 
 ### Create callback for Instagram post
 
@@ -779,7 +779,15 @@ Required parameters:
 | `locale` | `string` |  language locale  |
 | `geo` | `string` | geolocation  |
 
-## Retrieve parsed results via callback
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/instagramcallback.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramcallback.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramcallback.py > instagramcallback.py ``` |
+| PHP                 | [php/instagramcallback.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramcallback.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramcallback.php > instagramcallback.php  ``` |
+| Node.js                 | [nodejs/instagramcallback.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramcallback.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramcallback.js > instagramcallback.js ``` |
+
+### Retrieve parsed results via callback
 
 API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=parsed
 
@@ -787,7 +795,7 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=pars
   GET /task/{{Task ID}}/results?type=parsed
 ```
 
-## Retrieve raw HTML results via callback
+### Retrieve raw HTML results via callback
 
 API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
 
@@ -797,7 +805,7 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
 
 ## TikTok
 
-## TikTok profile
+### TikTok profile
 
 API Link: https://scraper-api.smartproxy.com/v1/scrape
 
@@ -817,6 +825,15 @@ Required parameters:
 | `target` | `string` |  target  |
 | `locale` | `string` |  language locale  |
 | `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/tiktokprofile.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokprofile.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokprofile.py > tiktokprofile.py ``` |
+| PHP                 | [php/tiktokprofile.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokprofile.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokprofile.php > tiktokprofile.php  ``` |
+| Node.js                 | [nodejs/tiktokprofile.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokprofile.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokprofile.js > tiktokprofile.js ``` |
+
 
 
 ## TikTok post
@@ -839,6 +856,15 @@ Required parameters:
 | `target` | `string` |  target  |
 | `locale` | `string` |  language locale  |
 | `geo` | `string` | geolocation  |
+
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/tiktokpost.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokpost.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokpost.py > tiktokpost.py ``` |
+| PHP                 | [php/tiktokpost.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php > tiktokpost.php  ``` |
+| Node.js                 | [nodejs/tiktokpost.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js > tiktokpost.js ``` |
 
 
 ## Targets
