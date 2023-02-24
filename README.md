@@ -4,7 +4,7 @@
 ## List of contents
 - [Introduction](#introduction)
 - [Authentication](#authentication)
-- [Synchronous (real-time) & asynchronous (callback) requests](#Synchronous)
+- [Synchronous (real-time) & asynchronous (callback) requests](#Synchronous (real-time) & asynchronous (callback) requests)
 - [Instagram](#instagram)
 - [TikTok](#tiktok)
 - [Targets](#targets)
