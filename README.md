@@ -4,7 +4,7 @@
 ## List of contents
 - [Introduction](#introduction)
 - [Authentication](#authentication)
-- [Synchronous (real-time) & asynchronous (callback) requests](#Synchronous-(real-time)-&-asynchronous-(callback)-requests)
+- [Synchronous (real-time) & asynchronous (callback) requests](#synchronous)
 - [Instagram](#instagram)
 - [TikTok](#tiktok)
 - [Targets](#targets)
@@ -20,7 +20,7 @@ With our Social Media Scraping API, you can gather most important data from Soci
 
 Once you have an active Social Media Scraping API subscription, you can set your password in the dashboard. To do so, select **Social Media** under **Scraping APIs** list. Then, head over to the **Authentication method** tab. Click the pencil icon and enter your password.
 
-## Synchronous (real-time) & asynchronous (callback) requests
+## Synchronous (real-time) & asynchronous (callback) requests <a name="synchronous"></a>
 
 With Social Media Scraping API, you can scrape choosing synchronous requests to receive data instantly or asynchronous requests to receive data based on a callback function.
 
