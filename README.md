@@ -431,6 +431,35 @@ Required parameters:
 | PHP                 | [php/tiktokpost.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php > tiktokpost.php  ``` |
 | Node.js                 | [nodejs/tiktokpost.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js > tiktokpost.js ``` |
 
+## TikTok hashtag
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://www.tiktok.com/tag/satisfying)
+```target``` (in this example, tiktok_hashtag)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  TikTok hashtag URL |
+| `target` | `string` |  target  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/tiktokhashtag.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokhashtag.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokhashtag.py > tiktokhashtag.py ``` |
+| PHP                 | [php/tiktokhashtag.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokhashtag.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokhashtag.php > tiktokhashtag.php  ``` |
+| Node.js                 | [nodejs/tiktokhashtag.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokhashtag.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokhashtag.js > tiktokhashtag.js ``` |
 
 ## Targets
 
@@ -445,6 +474,7 @@ instagram_graphql_reel
 instagram_graphql_hashtag
 tiktok_profile
 tiktok_post
+tiktok_hashtag
 ```
 
 ## Parameters
