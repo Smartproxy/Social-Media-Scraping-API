@@ -58,7 +58,7 @@ Instagram can be targeted using direct URL.
 
 The `instagram_post`, `instagram_profile`, and `instagram_reel` targets allow you to scrape Instagram's HTML and receive data parsed in JSON.
 
-The `instagram_graphql_post`, `instagram_graphql_profile`, `instagram_graphql_reel`, and `instagram_graphql_hashtag` target allows you to scrape Instagram's GraphQL API endpoint and receive data parsed in JSON.
+The `instagram_graphql_post`, `instagram_graphql_profile` and `instagram_graphql_hashtag` target allows you to scrape Instagram's GraphQL API endpoint and receive data parsed in JSON.
 
 ### Instagram profile
 
@@ -265,35 +265,6 @@ Required parameters:
 | PHP                 | [php/instagramreel.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramreel.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramreel.php > instagramreel.php  ``` |
 | Node.js                 | [nodejs/instagramreel.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramreel.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramreel.js > instagramreel.js ``` |
 
-### Instagram GraphQL reel
-
-API Link: https://scraper-api.smartproxy.com/v1/scrape
-
-```http
-  POST /scrape
-```
-
-Payload type: JSON
-
-Required parameters: 
-```url``` (in this example, https://www.instagram.com/reel/ClfPAdQgqTc/)
-```target``` (in this example, instagram_graphql_reel)
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `url` | `url` |  Instagram reel URL |
-| `target` | `string` |  target  |
-| `locale` | `string` |  language locale  |
-| `geo` | `string` | geolocation  |
-
-### Examples
-
-| Programming Language | Example location         | Download |
-| -------------------- | ------------------------ | -------- |
-| Python                  | [python/instagramgraphqlreel.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlreel.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/instagramgraphqlreel.py > instagramgraphqlreel.py ``` |
-| PHP                 | [php/instagramgraphqlreel.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlreel.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/instagramgraphqlreel.php > instagramgraphqlreel.php  ``` |
-| Node.js                 | [nodejs/instagramgraphqlreel.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlreel.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/instagramgraphqlreel.js > instagramgraphqlreel.js ``` |
-
 
 ### Instagram GraphQL hashtag
 
@@ -470,7 +441,6 @@ instagram_profile
 instagram_reel
 instagram_graphql_post
 instagram_graphql_profile
-instagram_graphql_reel
 instagram_graphql_hashtag
 tiktok_profile
 tiktok_post
