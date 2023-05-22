@@ -9,6 +9,7 @@
 - [Synchronous (real-time) & asynchronous (callback) requests](#synchronous)
 - [Instagram](#instagram)
 - [TikTok](#tiktok)
+- [Twitter](#twitter)
 - [Targets](#targets)
 - [Parameters](#parameters)
 - [Postman Collection](#postman-collection)
@@ -343,6 +344,40 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
 
 ## TikTok
 
+
+### TikTok API Profile
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://www.tiktok.com/@nba)
+```target``` (in this example, tiktok_profile)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  TikTok profile URL |
+| `target` | `string` |  target  |
+| `count` | `integer` |  Number of results to be returned.
+At least 1. At most 35. Defaults to 10.  |
+| `timestamp` | `integer` |  UNIX timestamp, Given a timestamp date, the last count entries will be returned, starting from that date.
+Timestamp must be in seconds format (this will generally be 10 digits long)  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/tiktokapiprofile.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokapiprofile.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokapiprofile.py > tiktokapiprofile.py ``` |
+| PHP                 | [php/tiktokapiprofile.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokapiprofile.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokapiprofile.php > tiktokapiprofile.php  ``` |
+| Node.js                 | [nodejs/tiktokapiprofile.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokapiprofile.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokapiprofile.js > tiktokapiprofile.js ``` |
+
 ### TikTok profile
 
 API Link: https://scraper-api.smartproxy.com/v1/scrape
@@ -374,7 +409,7 @@ Required parameters:
 
 
 
-## TikTok post
+### TikTok post
 
 API Link: https://scraper-api.smartproxy.com/v1/scrape
 
@@ -404,7 +439,39 @@ Required parameters:
 | PHP                 | [php/tiktokpost.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokpost.php > tiktokpost.php  ``` |
 | Node.js                 | [nodejs/tiktokpost.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokpost.js > tiktokpost.js ``` |
 
-## TikTok hashtag
+### TikTok API hashtag
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```query``` (in this example, tasty)
+```target``` (in this example, tiktok_api_hashtag)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `query` | `string` |  TikTok hashtag query |
+| `target` | `string` |  target  |
+| `count` | `integer` |  Returns the most recent count results.
+At least 1. At most 35. Defaults to 10.  |
+| `cursor` | `integer` |  Number for indicating how offset the results should be. Defaults to 0 (fetches results that you would see at the top of the page)	  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/tiktokapihashtag.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokapihashtag.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/tiktokapihashtag.py > tiktokapihashtag.py ``` |
+| PHP                 | [php/tiktokapihashtag.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokapihashtag.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokapihashtag.php > tiktokapihashtag.php  ``` |
+| Node.js                 | [nodejs/tiktokapihashtag.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokapihashtag.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokapihashtag.js > tiktokapihashtag.js ``` |
+
+### TikTok hashtag
 
 API Link: https://scraper-api.smartproxy.com/v1/scrape
 
@@ -434,6 +501,128 @@ Required parameters:
 | PHP                 | [php/tiktokhashtag.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokhashtag.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/tiktokhashtag.php > tiktokhashtag.php  ``` |
 | Node.js                 | [nodejs/tiktokhashtag.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokhashtag.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/tiktokhashtag.js > tiktokhashtag.js ``` |
 
+## Twitter
+
+### Twitter User
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://twitter.com/elonmusk)
+```target``` (in this example, twitter_user)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  Twitter profile URL	 |
+| `target` | `string` |  target  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/twitteruser.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitteruser.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitteruser.py > twitteruser.py ``` |
+| PHP                 | [php/twitteruser.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitteruser.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitteruser.php > twitteruser.php  ``` |
+| Node.js                 | [nodejs/twitteruser.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitteruser.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitteruser.js > twitteruser.js ``` |
+
+
+### Twitter User Tweets
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://twitter.com/elonmusk)
+```target``` (in this example, twitter_user_tweets)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  Twitter profile URL	 |
+| `target` | `string` |  target  |
+| `count` | `integer` |  amount of tweets  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/twitterusertweets.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitterusertweets.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitterusertweets.py > twitterusertweets.py ``` |
+| PHP                 | [php/twitterusertweets.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitterusertweets.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitterusertweets.php > twitterusertweets.php  ``` |
+| Node.js                 | [nodejs/twitterusertweets.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitterusertweets.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitterusertweets.js > twitterusertweets.js ``` |
+
+### Twitter User Liked Tweets
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```url``` (in this example, https://twitter.com/elonmusk)
+```target``` (in this example, twitter_user_liked_tweets)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `url` | `url` |  Twitter profile URL	 |
+| `target` | `string` |  target  |
+| `count` | `integer` |  amount of tweets  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/twitteruserlikedtweets.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitteruserlikedtweets.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twitteruserlikedtweets.py > twitteruserlikedtweets.py ``` |
+| PHP                 | [php/twitteruserlikedtweets.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitteruserlikedtweets.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twitteruserlikedtweets.php > twitteruserlikedtweets.php  ``` |
+| Node.js                 | [nodejs/twitteruserlikedtweets.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitteruserlikedtweets.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twitteruserlikedtweets.js > twitteruserlikedtweets.js ``` |
+
+### Twitter Search
+
+API Link: https://scraper-api.smartproxy.com/v1/scrape
+
+```http
+  POST /scrape
+```
+
+Payload type: JSON
+
+Required parameters: 
+```query``` (in this example, nba)
+```target``` (in this example, twitter_search)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `query` | `string` |  Twitter search query	 |
+| `target` | `string` |  target  |
+| `locale` | `string` |  language locale  |
+| `geo` | `string` | geolocation  |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/twittersearch.py](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twittersearch.py) |``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/python/twittersearch.py > twittersearch.py ``` |
+| PHP                 | [php/twittersearch.php](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twittersearch.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/php/twittersearch.php > twittersearch.php  ``` |
+| Node.js                 | [nodejs/twittersearch.js](https://github.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twittersearch.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/Social-Media-Scraping-API/blob/main/nodejs/twittersearch.js > twittersearch.js ``` |
+
+
 ## Targets
 
 ### List of supported targets for the 'target' parameter
@@ -445,8 +634,14 @@ instagram_graphql_post
 instagram_graphql_profile
 instagram_graphql_hashtag
 tiktok_profile
+tiktok_api_profile
 tiktok_post
 tiktok_hashtag
+tiktok_api_hashtag
+twitter_user
+twitter_user_tweets
+twitter_user_liked_tweets
+twitter_search
 ```
 
 ## Parameters
@@ -454,6 +649,11 @@ tiktok_hashtag
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `url` | `url` |  Social Media URL |
+| `query` | `string` |  Request query |
+| `count` | `integer` |  Result Count |
+| `cursor` | `integer` |  Number for indicating how offset the results should be. Defaults to 0 (fetches results that you would see at the top of the page)	  |
+| `timestamp` | `integer` |  UNIX timestamp, Given a timestamp date, the last count entries will be returned, starting from that date.
+Timestamp must be in seconds format (this will generally be 10 digits long)  |
 | `target` | `string` |  Desired target |
 | `locale` | `string` |  Language Locale  |
 | `geo` | `string` | Geolocation  |
