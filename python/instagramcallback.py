@@ -15,7 +15,7 @@ username = 'username'
 password = 'password'
   
 response = requests.post(
-    'https://scraper-api.smartproxy.com/v1/task',
+    'https://scraper-api.smartproxy.com/v2/task',
     headers = headers,
     json = task_params,
     auth = (username, password)
