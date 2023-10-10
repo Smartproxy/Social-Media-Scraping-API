@@ -9,7 +9,7 @@ $params = array(
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'https://scraper-api.smartproxy.com/v1/scrape');
+curl_setopt($ch, CURLOPT_URL, 'https://scraper-api.smartproxy.com/v2/scrape');
 curl_setopt($ch, CURLOPT_USERPWD, 'username' . ':' . 'password');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params));
