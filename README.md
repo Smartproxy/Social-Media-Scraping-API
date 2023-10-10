@@ -30,28 +30,28 @@ With Social Media Scraping API, you can scrape choosing synchronous requests to 
 
 ```http
 POST
-https://scraper-api.smartproxy.com/v1/scrape
+https://scraper-api.smartproxy.com/v2/scrape
 ```
 
 ### Asynchronous (create a callback)
 
 ```http
 POST
-https://scraper-api.smartproxy.com/v1/task
+https://scraper-api.smartproxy.com/v2/task
 ```
 
 ### Asynchronous (receive data in raw HTML)
 
 ```http
 GET
-https://scraper-api.smartproxy.com/v1/task/{{task_id}}/results?type=raw
+https://scraper-api.smartproxy.com/v2/task/{{task_id}}/results?type=raw
 ```
 
 ### Asynchronous (receive data parsed in JSON)
 
 ```http
 GET
-https://scraper-api.smartproxy.com/v1/task/{{task_id}}/results?type=Parsed
+https://scraper-api.smartproxy.com/v2/task/{{task_id}}/results?type=Parsed
 ```
 
 ## Instagram
@@ -64,7 +64,7 @@ The `instagram_graphql_post`, `instagram_graphql_profile` and `instagram_graphql
 
 ### Instagram profile
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -155,7 +155,7 @@ First 2 top & bottom ads and product listing info
 
 ### Instagram GraphQL profile
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -184,7 +184,7 @@ Required parameters:
 
 ### Instagram post
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -212,7 +212,7 @@ Required parameters:
 
 ### Instagram GraphQL post
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -240,7 +240,7 @@ Required parameters:
 
 ### Instagram reel
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -270,7 +270,7 @@ Required parameters:
 
 ### Instagram GraphQL hashtag
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -299,7 +299,7 @@ Required parameters:
 
 ### Create callback for Instagram post
 
-API Link: https://scraper-api.smartproxy.com/v1/task
+API Link: https://scraper-api.smartproxy.com/v2/task
 
 ```http
   POST /task
@@ -327,7 +327,7 @@ Required parameters:
 
 ### Retrieve parsed results via callback
 
-API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=parsed
+API Link: https://scraper-api.smartproxy.com/v2/task/{Task_ID}/results?type=parsed
 
 ```http
   GET /task/{{Task ID}}/results?type=parsed
@@ -335,7 +335,7 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=pars
 
 ### Retrieve raw HTML results via callback
 
-API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
+API Link: https://scraper-api.smartproxy.com/v2/task/{Task_ID}/results?type=raw
 
 ```http
   GET /task/{{Task ID}}/results?type=raw
@@ -346,7 +346,7 @@ API Link: https://scraper-api.smartproxy.com/v1/task/{Task_ID}/results?type=raw
 
 ### TikTok API Profile
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -379,7 +379,7 @@ Timestamp must be in seconds format (this will generally be 10 digits long)  |
 
 ### TikTok profile
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -410,7 +410,7 @@ Required parameters:
 
 ### TikTok post
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -440,7 +440,7 @@ Required parameters:
 
 ### TikTok API hashtag
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
@@ -472,7 +472,7 @@ At least 1. At most 35. Defaults to 10.  |
 
 ### TikTok hashtag
 
-API Link: https://scraper-api.smartproxy.com/v1/scrape
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
   POST /scrape
