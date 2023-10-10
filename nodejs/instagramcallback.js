@@ -5,7 +5,7 @@ const password = 'YOUR_PASSWORD';
 
 const options = {
   method: 'POST',
-  url: 'https://scraper-api.smartproxy.com/v1/task',
+  url: 'https://scraper-api.smartproxy.com/v2/task',
   headers: {
     'Content-Type': 'application/json',
     'Authorization': 'Basic ' + Buffer.from(username + ':' + password).toString('base64')
