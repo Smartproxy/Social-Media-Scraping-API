@@ -1,7 +1,7 @@
 
 # Social Media Scraping API
 
-[<img src="https://i.ibb.co/HdyZp7Q/Social-Media.png">](https://dashboard.smartproxy.com/register?utm_source=Github&utm_medium=banner&utm_campaign=Social-media-scraping)
+[<img src="https://i.imgur.com/eViepgO.png">](https://dashboard.smartproxy.com/register?page=social-media%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_some_scraper) 
 
 ## List of contents
 - [Introduction](#introduction)
