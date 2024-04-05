@@ -3,6 +3,8 @@
 
 [<img src="https://i.imgur.com/eViepgO.png">](https://dashboard.smartproxy.com/register?page=social-media%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_some_scraper) 
 
+[![](https://dcbadge.vercel.app/api/server/gvJhWJPaB4)](https://discord.gg/sCr34yVDVB)
+
 ## List of contents
 - [Introduction](#introduction)
 - [Authentication](#authentication)
